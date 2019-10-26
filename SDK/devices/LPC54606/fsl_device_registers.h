@@ -9,6 +9,8 @@
 #ifndef __FSL_DEVICE_REGISTERS_H__
 #define __FSL_DEVICE_REGISTERS_H__
 
+#define CPU_LPC54606J512BD100 1
+
 /*
  * Include the cpu specific register header files.
  *

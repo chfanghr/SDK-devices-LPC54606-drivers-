@@ -34,3 +34,6 @@ status_t BOARD_InitDebugConsole(void)
     assert(kStatus_Success == result);
     return result;
 }
+
+void _exit(int __status) { while (1) {}}
+void __sync_synchronize() {}
